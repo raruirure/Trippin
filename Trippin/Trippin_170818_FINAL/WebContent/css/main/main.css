@@ -1,0 +1,282 @@
+body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  
+}
+.main_map_view {
+	width: 100%;
+	height: 500px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+
+.logout_list_last{
+	border : 1px solid black;
+	text-align:center;
+}
+
+#page{
+    max-width:1200px;
+    min-height:800px;
+    margin: 10px auto;
+    position:relative;
+    z-index: 1;
+} 
+.container{
+
+}
+
+.main.big.drop.li{
+    background:white;
+    text-align:left;
+} 
+
+.fa.fa-caret-down.main{
+    font-size:40px;
+}
+
+figure{
+    width:280px;
+    position:relative;
+    right:40px;
+}    
+
+.container1{
+
+}
+.nav-both1{
+    width:80%;   
+}
+.nav-both2{
+    width:20%;  
+}
+
+.main.detail.search{
+    position:absolute;
+}	
+
+
+.main.input.for.search{
+    width:1200px;
+    height:30px;
+    position:absolute;
+}
+
+.column.is-3.main1{
+    margin-right:0;
+    margin-top:20px;
+}
+
+
+.column.is-3.main2{
+     margin:0;
+    margin-top:20px;
+}
+
+.column.is-3.main3{
+    margin-left:0;
+    margin-top:20px;
+}
+
+#search1{
+    width:90%;
+    height:30px;
+}
+
+.main_placehold{
+	position:relative;
+}
+
+.material-icons.main_icon_search{
+    position:absolute;
+    right:1px;
+    bottom:1px;
+    background:white;
+}
+
+.main.detailsearch.checkbox{
+    display:inline;
+    width:30px;
+}
+
+.main.detailsearch.checkbox.left{
+    margin-left:30px;
+    width:30px;
+}
+
+#openCalModal,
+.main.calendar{
+    height:30px;
+}
+
+.main.calendar{
+    margin-top: -15px;
+}
+
+.main.relative.up{
+    position:relative;
+    top:-5px;
+} 
+
+.main.big.drop.li{
+    width:1200px;
+    padding:10px;
+    margin:0;
+    border-top:1px solid black;
+    border-left:1px solid black;
+    border-right:1px solid black;
+    box-sizing: border-box;
+    line-height:30px;
+    vertical-align: middle;
+}
+
+.main.big.drop.li.float_left{
+    float:left;
+    border-bottom:1px solid black;
+    border-left:1px solid black;
+    border-right:1px solid black;
+}
+
+.container.profile {
+    margin:0;
+    padding:0;
+    margin-bottom:-40px;
+    width:1200px;
+}
+
+.spacer{
+    margin-top:50px;
+}
+
+.column,
+.columns.main{
+    margin:auto;
+    background:white;
+}
+
+.content.main{
+     text-align:center;
+}
+
+.profile-heading {
+  margin: 20px 0;
+  padding-bottom: 30px;
+}
+.profile-heading .name {
+  border-right: 1px solid #f1f1f1;
+  margin:-30px 0;
+  padding: 40px 30px 0 30px;
+}
+.profile-heading .followers, .profile-heading .following {
+  border-right: 1px solid #f1f1f1;
+  margin:-30px 0;
+  padding: 70px 30px;
+}
+.profile-heading .likes {
+  margin:-30px 0;
+  padding: 70px 30px;
+}
+.profile-heading .stat-key {
+  font-size: 20px;
+  font-weight: 200;
+}
+.profile-heading .stat-val {
+  font-size: 35px;
+  font-weight: bold;
+}
+.profile-options {
+  background-color: #f1f1f1;
+  margin:-20px 0 20px 0;
+}
+.profile-options .link a {
+  padding:18px;
+  font-size: 18px;
+}
+.profile-options .link .icon {
+  font-size: 16px;
+  padding-top:2px;
+}
+.tagline {
+  padding:20px 0;
+  font-size: 16px;
+  line-height: 1.4;
+}
+.avatar {
+  float: right;
+}
+.follow {
+  float: right;
+}
+.avatar img {
+  border-radius: 200px;
+}
+p.title.is-bold {
+  font-weight: bold;
+}
+
+.card .timestamp {
+  float:right;
+  color:#bbb;
+}
+.main.profile.drop{
+    position:absolute;
+    right:15px;
+    top:-25px;
+    z-index: 20;
+}
+
+.main.profile.drop >ul{
+    background-color:antiquewhite;
+    width:100px;
+    text-align:center;
+}
+
+.main.profile.drop > ul > li{
+    border-top:1px solid black;
+    border-left:1px solid black;
+    border-right:1px solid black;
+}
+
+.main.border-bottom{
+    border-bottom:1px solid black;
+}
+
+/* main 상세정보 화살표 */
+.main.profile.drop{
+    position:absolute;
+    right:15px;
+    top:-25px;
+    z-index: 20;
+}
+
+.main.profile.drop >ul{
+    background-color:antiquewhite;
+    width:100px;
+    text-align:center;
+}
+
+.main.profile.drop > ul > li{
+    border-top:1px solid black;
+    border-left:1px solid black;
+    border-right:1px solid black;
+}
+
+.main.border-bottom{
+    border-bottom:1px solid black;
+}
+
+/* 상세정보 삼각형 돌아가게 하기*/
+.fa.fa-caret-down.main{
+    font-size:40px;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+	
+.main_triangle_rotate {
+   	 -moz-transform: rotate(180deg);
+   	 -o-transform: rotate(180deg);
+  	  -webkit-transform: rotate(180deg);
+  	  transform: rotate(180deg);
+}

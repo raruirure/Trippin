@@ -1,0 +1,28 @@
+a:hover {
+	text-decoration: none;
+    cursor:pointer;
+}
+a:hover span {
+/*	color:white;*/
+	
+}
+
+span.board_defalut{
+	color:#6F7B7E;
+}
+
+span.board_defalut:hover{
+	color:white;
+}
+
+.aside_board_list{
+	color:#6F7B7E;
+}
+
+.active{
+	color:white;
+}
+
+.board_defalut.white_active{
+	color:white;
+}

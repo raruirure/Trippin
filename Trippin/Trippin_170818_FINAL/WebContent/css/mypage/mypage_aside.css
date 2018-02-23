@@ -1,0 +1,138 @@
+.columns{
+        max-width: 1200px;
+        margin:auto;
+        overflow: hidden;
+
+    }
+
+    .leftbox{
+        width:280px;
+
+    }
+
+
+    .profile-box{
+        background-color: #232b2d;
+        width: 280px;
+        height: 300px;
+        padding: 20px;
+        border-bottom: 2px solid white;
+    }
+    .profile-box img {
+
+        width: 220px;
+        height: 220px;
+        background-color: white;
+        text-align: center;
+        line-height: 200px;
+        border-radius: 50%;
+    }
+
+
+
+    .card-content {
+        padding: 0px;
+        margin:0px;
+        background-color: #232b2d;
+        height:30px;
+        text-align: center;
+    }
+    .card-user {
+        margin: 5px 0 0;
+        color: #F5F7FA;
+    }
+    .card-user-name{
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 21px;
+        margin-top: 15px;
+        margin-bottom:5px;
+    }
+    .card-user-name a{
+        color: inherit !important;
+    }
+
+    /** map Box **/
+    #map{
+        width: 850px;
+        height: 300px;
+        border: 1px solid black;
+        margin-bottom:20px;
+    }
+    .nav.map{
+        width: 850px;
+        height: 300px;
+        border: 1px solid black;
+        margin-bottom:20px;
+    }
+
+
+
+    .columns.files {
+        margin-left: 0;
+        width: 850px;
+    }
+    .column.is-2 {
+        width: 300px;
+    }
+
+
+    .card .timestamp {
+        float:right;
+        color:#bbb;
+    }
+
+    .content {
+        display: block;
+        background-color: #fff;
+        padding: 20px 10px;
+    }
+
+
+    .no-border{
+        border:0px !important;
+    }
+    .list-group-item {
+        position: relative;
+        display: block;
+        padding: 10px 15px;
+        margin-bottom: -1px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+    }
+
+
+    ul.profile-list {
+        padding: 0;
+        text-align: center;
+
+        left: 0;
+        top: 15px;
+    }
+    .profile-list li a span {
+        background: #0D131E;
+        color: #fff;
+    }
+    .profile-list li a span {
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        background: #0D131E;
+        display: inline-block;
+        text-align: center;
+        line-height: 34px;
+        font-size: 15px;
+    }
+
+
+    label.label {
+        text-align: left;
+    }
+
+    .addReviewBox {
+        padding: 0;
+        /* margin: 0; */
+        text-align: center;
+        top: 70px;
+        margin-top: 100px;
+    }

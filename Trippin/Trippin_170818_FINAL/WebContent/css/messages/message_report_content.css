@@ -1,0 +1,58 @@
+.container{
+    width : 800px;
+    height : 360px;
+
+}
+
+#message_delete li{
+    float: right;
+    margin-right: 10px;
+}
+#btn{
+    text-align: right;
+    margin-top: -13px;
+    margin-right: 10px;
+}
+.nav-left button{
+    margin-left: 4px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.nav-left{
+    margin-left: 10px;
+    font-size: 20px;
+    color: lightslategrey
+}
+.button{
+    height: 30px;
+}
+#message_send{    
+    text-align: right;
+    margin-top:-10px;
+    margin-right: 10px;
+}
+
+#table th, #table td{
+    margin: 0px;
+}
+#table_write{
+    border: 1px solid lightgray;
+}
+.message_title{
+    width:630px;
+    position: absolute;
+}
+#email{
+    position: absolute;
+    width: 240px;
+}
+#content{
+    height:185px;
+}
+#area{
+    position:absolute;
+}
+.table th{
+    vertical-align: middle;
+    text-align: center;
+}

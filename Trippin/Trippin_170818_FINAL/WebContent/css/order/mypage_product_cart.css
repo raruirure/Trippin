@@ -1,0 +1,39 @@
+
+.card1{
+    height:300px;
+}
+
+.is-9{
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding:20px;
+}
+
+.mpTitle{
+    font-weight: bold;
+    font-size: 25px;
+}
+#ctTitle{
+    background-color: #cccccc;
+}
+div.pListTitle , div.pCancleListTitle{
+    border: 1px solid #eee;
+    border-bottom: 0;
+    padding: 10px;
+}
+div.pList, div.pCancleList{
+    border: 1px solid #eee;
+    min-height: 200px;
+}
+
+button#ccdBtn, button#cadBtn, button#pmAllCBtn, button#cpBtn {
+    height: 30px;
+    line-height: 10px;
+}
+button#cadBtn, button#ccdBtn, button#pmAllCBtn{
+	float: left;
+    margin-left: 10px;
+}
+button#cpBtn{
+	float:right;
+}

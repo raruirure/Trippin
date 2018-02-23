@@ -1,0 +1,25 @@
+#productBtn{
+    text-align: center;
+}
+#productBtn>.cartBtn, #productBtn>.payBtn{
+    width: 100px;
+}
+.pCommentWriteBtn{
+	float:right;
+}
+.payBtn{
+    margin-left: 30px;
+}
+.productContainer{
+    min-height: 500px;
+}
+div.pDetailBox , div.pReviewBox, div.pQnaBox, div.pSellerBox{
+    min-height: 500px;
+    padding:30px;
+}
+div.pDetailBox{
+	display:block;
+}
+div.pReviewBox, div.pQnaBox, div.pSellerBox{
+	display:none;
+}

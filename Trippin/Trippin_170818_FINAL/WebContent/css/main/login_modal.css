@@ -1,0 +1,166 @@
+/* Full-width input fields */
+input {
+	width: 100%;
+	margin: 5px 0;
+}
+/* Set a style for all buttons */
+button {
+	text-align: center;
+}
+.loginBtn {
+	width: 100%;
+	height: 45px;
+	font-size: 13pt;
+	border-radius: 15px;
+	margin: 10px 0 0 0;
+	text-align: center;
+}
+.login_toJoin_btn {
+	float: right;
+}
+
+.registerBtn .button {
+	width: 45%;
+	margin: 10px 6px;
+	border-radius: 15px;
+	border: 0;
+	text-align: center;
+}
+.registerBtn .button:hover {
+	opacity: 0.8;
+	color: #F6F7F7; 
+}
+input[name="general_user_btn"] {
+	background-color: #333B58;
+	color: #F6F7F7; 
+}
+input[name="seller_btn"] {
+	background-color: #ccc;
+	color: #F6F7F7;
+}
+#ID_line {
+	line-height: 50px;
+}
+input[name="id_dupliCheck"] {
+	float: right;
+}
+.seller_level {
+	display: none;
+}
+.googleimg {
+	width: 25px;
+	height: 25px;
+	margin: auto 5px;
+}
+#idconfirm {
+	background-color: #78A6E6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 50px;
+}
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 10; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+   padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    border: 1px solid #888;
+}
+form[name="member_login"]{
+	padding: 50px 40px 30px 40px;
+	width: 400px;
+}
+.member_join {
+	padding: 35px 40px 10px 40px;
+	width: 450px;
+}
+#notEqualPwd {
+	font-size: 9pt;
+	color: red;
+	display:none;
+	float: right;
+}
+h1 {
+	font-weight: bold;
+	text-align: center;
+}
+.login_a_form {
+	color: #1fc8db;
+	font-size: 10pt;
+}
+.login_a_form:hover {
+	text-decoration: none;
+	color: #1fc8db;
+}
+.fontcolorJoin {
+	color:#1fc8db;
+	font-size: 11pt;
+	float: right;
+}
+.JoincheckboxSize {
+	width: 18px;
+}
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #000;
+    font-size: 25px;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    cursor: pointer;
+}
+.login_style {
+	display: block;
+}
+.logout_style {
+	display: none;
+}
+
+/* profile drop */
+.memberProfileImg {
+	border: 1px solid #ccc;
+	width: 32px;
+	height: 32px;
+	border-radius: 15px;
+}
+.headerProfileImg {
+	line-height: 32px;
+	position: relative;
+}
+.mainProfile_drop {
+	display: none;
+	position: absolute;
+	top: 42px;
+	width: 100px;
+	z-index: 10;
+}
+.mainProfile_drop li {
+	border: 1px solid #ccc;
+	background-color: white;
+}

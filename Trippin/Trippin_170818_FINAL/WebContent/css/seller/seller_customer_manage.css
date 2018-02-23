@@ -1,0 +1,48 @@
+div.columns{
+    min-height: 700px;
+}
+div.cmbox, div.cmbox2 {
+	width:850px;
+    min-height: 400px;
+    position: relative;
+    left: 15px;
+    top: 20px;
+}
+div.cmListTitle, div.cmCancleTitle{
+    width: 200px;
+    height: 30px;
+    line-height: 0px;
+    background-color: aliceblue;
+    position: absolute;
+    top: -20px;
+    text-align: center;
+}
+.cmListBtn{
+    right:15px;
+    float: right;
+    top: 10px;
+    margin-top: 10px;
+}
+.cmCCanBtn, .cmACanBtn{
+    right:15px;
+    float: right;
+    top: 5px;
+}
+table.cmListtable, table.cmCancletable{
+    margin-top: 20px;
+}
+div.cpBtnDiv{
+    width: 200px;
+    height: 50px;
+    float: right;
+    margin-top: 60px;
+}
+div.cpBtnDiv>.button {
+    margin-left: 10px;
+}
+table.cmtable th , table.cmtable td{
+    text-align: center;
+}
+div.cmbox2{
+    top: 70px;
+}
