@@ -1,0 +1,274 @@
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+		"Segoe UI Symbol";
+}
+
+.container.review_form {
+	margin-top: 50px;
+/*	border: 1px solid #ccc;*/
+}
+
+/* review_form_name */
+.review_form_heading, .review_view_heading {
+	margin: 20px 0;
+	padding-bottom: 30px;
+	height: 300px;
+}
+
+input[name=review_form_name] {
+	width: 100%;
+	height: 60px;
+	margin: 90px 80px 0 0;
+}
+
+.review_plus_icon {
+	margin-top: 50px;
+	float: right;
+}
+
+/* review form menu */
+#reviewMap {
+	display: none;
+}
+.formMenu {
+	height: 50px;	
+}
+.formMenu ul {
+	border-bottom: 0;
+}
+.formMenu .link a {
+	padding: 12.5px;
+	font-size: 18px;
+}
+
+
+.review_form_menu {
+	margin: 3px 0 10px 0;
+}
+
+.review_form_date {
+	background-color: #ffffff;
+	margin: -5px 0 10px 0;
+	height: 50px;
+}
+.review_form_date input {
+	margin: auto;
+}
+.review_form_date_tilde {
+	height: 50px;
+	font-weight: 500;
+	text-align: center;
+}
+.content_detail_font {
+	text-align: center;
+	line-height: 40px;
+	font-weight: 350;
+	font-size: 11pt;
+	color: black;
+	text-align:center;
+	padding-left: 10px;
+}
+.content_detail_date {
+	width: 92%;
+	margin: 0 0 0 7px;
+	height: 40px;
+}
+/* review_form_content */
+.review_form_day_box {
+	text-align: center;
+	height: 700px;
+	background-color: #ffffff;
+}
+#review_view_day_box {
+	position: absolute;
+	text-align: center;
+}
+.review_form_content {
+	background-color: #ffffff;
+}
+
+.review_form_content_route {
+	padding: 30px 20px;
+}
+
+.review_form_content_map {
+	margin: 5px 0;
+	height: 400px;
+	border: 1px solid #ccc; 
+}
+
+.review_form_content_city {
+	margin: 5px 0;
+	height: 40px;
+	text-align: center;
+}
+
+.review_form_image_detail {
+	margin-bottom: 14px;
+	height: 80px;
+	border: 1px solid #ccc;
+}
+
+.review_image_detail {
+	height: 100px;
+	border: 1px solid #ccc; 
+}
+
+.review_form_content_text {
+	height: 40px;
+	width: 92%;
+	margin: 5px 0 5px 19px;
+}
+
+textarea[name="review_form_content_detail"] {
+	width: 100%;
+	height: 100px;
+}
+
+.review_form_image_btn_area {
+	width: 100%;
+	height: 46px;
+}
+
+.review_form_image_btn {
+	height: 40px;
+	margin: 0px 3px 30px 3px;
+	float: right;
+	font-size: 12pt;
+}
+
+.revew_form_spacer {
+	height: 15px;
+}
+
+.city_search_space_btn {
+	margin: 5px auto;
+	height: 40px;
+	width: 13.3%;
+	background-color: #333B58;
+	color: #F6F7F7;
+	border: 0;
+	font-weight: bold;
+}
+
+.city_search_space_result {
+	margin: 5px auto;
+	height: 40px;
+	width: 86%;
+}
+/* button */
+.review_form_day_btn {
+	width: 100%;
+	height: 50px;
+	font-size: 12pt;
+	margin: 3px 0;
+}
+.review_view_day_btn {
+	width: 100%;
+	height: 50px;
+	font-size: 12pt;
+	margin: 3px 0;
+	background-color: #ffffff;
+	color: #1fc8db;
+}
+.review_form_btn {
+	width: 100px;
+	height: 40px;
+	margin: 0px 3px 30px 3px;
+	font-weight: bold;
+	font-size: 12pt;
+	background-color: #333B58;
+	color: #F6F7F7;
+	border-radius: 5px;
+}
+
+.review_form_flag {
+	width: 50px;
+	height: 40px;
+	margin: 0px 3px 30px 3px;
+	font-weight: bold;
+	font-size: 12pt;
+	background-color: #333B58;
+	color: #F6F7F7;
+	border-radius: 5px;
+}
+
+.review_form_btn:hover {
+	color: #F6F7F7;
+	opacity: 0.9;
+}
+
+.review_form_btn:focus {
+	color: #F6F7F7;
+}
+
+.review_btn_right {
+	width: 100px;
+	height: 40px;
+	margin: 0px 3px 30px 3px;
+	font-weight: bold;
+	font-size: 12pt;
+	background-color: #333B58;
+	color: #F6F7F7;
+	border-radius: 5px;
+	float: right;
+	text-align: center;
+	border: 0;
+}
+#plus_date {
+	background-color: transparent;
+	border-radius: 15px;
+	border: 1px solid #ccc;
+	margin-top: 10px;
+}
+/* review */
+/* review_name*/
+.review_name {
+	width: 100%;
+	height: 60px;
+	margin: 90px 80px 0 0;
+}
+
+.rewview_form_content {
+	height: 15px;
+}
+
+.rewview_form_content_box {
+	margin-bottom: 30px;
+}
+
+.review_form_fixed_btn {
+	width: 12.9%;
+	height: 45px;
+	position: fixed;
+	bottom: 20px;
+	font-weight: 600;
+}
+
+button {
+	fonr-size: 12pt;
+}
+/*******content view table*********/
+.review_plan_view_content_detail {
+	width: 95%;
+	margin: auto;
+}
+.review_plan_view_content_detail tr th {
+	color: #1fc8db;
+	width: 10%;
+	heigth: 40px;
+	line-height: 40px;
+ 	font-size: 12pt;
+}
+.review_plan_view_content_detail tr td {
+	width: 90%;
+		heigth: 40px;
+	line-height: 40px;
+}
+.detail_form {
+	height: 500px;
+}
+.plan_form_content_detail {
+	height: 500px;
+}

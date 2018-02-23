@@ -1,0 +1,44 @@
+.container{
+    width : 800px;
+    height : 360px;
+
+}
+.table thead th , .table tbody td{
+    text-align: center;
+}
+#message_delete li{
+    float: right;
+    margin-right: 10px;
+}
+#btn{
+    text-align: right;
+    margin-top: -13px;
+    margin-right: 10px;
+}
+.nav-left button{
+    margin-left: 4px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.nav-left{
+    margin-left: 8px;
+}
+.button{
+    height: 30px;
+}
+#message_write{
+    text-align: center;
+}
+tbody a{
+    color:black;
+}
+
+.message_p_center.message_big_title{
+	margin:auto;
+	font-size:15pt;
+	font-weight:bold;
+}
+
+.message_p_center{
+	text-align:center;
+}      

@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//src/org/trippin/action/main/MainPlanAction.java=UTF-8
+encoding//src/org/trippin/action/main/MainProductAction.java=UTF-8
+encoding//src/org/trippin/action/main/MainReviewAction.java=UTF-8
+encoding//src/org/trippin/action/message/MessageNormalWriteAction.java=UTF-8
+encoding//src/org/trippin/action/message/MessageReportWriteAction.java=UTF-8
+encoding//src/org/trippin/action/mypage/MemberModifyActionPro.java=UTF-8
+encoding//src/org/trippin/action/mypage/MyPagePlanAction.java=UTF-8
+encoding//src/org/trippin/action/mypage/MyPageReViewAction.java=UTF-8
+encoding//src/org/trippin/dao/PlanDAO.java=UTF-8
+encoding//src/org/trippin/dao/ReviewDAO.java=UTF-8
+encoding//src/org/trippin/service/search/SearchQueryService.java=UTF-8
+encoding//src/org/trippin/vo/ProductVo.java=UTF-8

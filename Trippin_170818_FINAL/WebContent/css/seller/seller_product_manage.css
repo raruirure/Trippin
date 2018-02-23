@@ -1,0 +1,34 @@
+div.columns{
+    min-height: 700px;
+}
+div.pmbox{
+    width:850px;
+    min-height: 400px;
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+div.pmListTitle{
+    width: 200px;
+    height: 30px;
+    line-height: 0px;
+    background-color: aliceblue;
+    position: absolute;
+    top: -20px;
+    text-align: center;
+}
+.pmListCon {
+	margin-top: 20px;
+}
+.pmBtn{
+    right: 15px;
+    top: 50px;
+    float: right;
+    margin: 0 3px;
+}
+table.pmtable{
+    margin-top: 50px;
+}
+table.pmtable th , table.pmtable td{
+    text-align: center;
+}
